@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen_background"
+    android:gravity="center_horizontal"
+    android:paddingTop="177dp"
+    android:orientation="vertical"
+    tools:context=".SplashScreenActivity">
+
+    <TextView
+        android:id="@+id/ivIconSplashScreen"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/app_icon_splash"
+        android:gravity="center"
+        android:src="@drawable/ap_splash"
+        android:text="AP"
+        android:textColor="#0066FF"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAppNameSplashScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+</LinearLayout>

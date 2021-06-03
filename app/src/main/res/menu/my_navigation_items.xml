@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_XemLop"
+        android:title="@string/lop"
+        android:icon="@drawable/ic_class" />
+    <item android:id="@+id/action_GiangVien"
+        android:title="@string/gv"
+        android:icon="@drawable/ic_gv" />
+    <item android:id="@+id/action_XemDiemDanh"
+        android:title="Sinh viên vắng"
+        android:icon="@drawable/ic_date" />
+    <item android:id="@+id/action_ThongBao"
+        android:title="Thông báo"
+        android:icon="@drawable/ic_notifications" />
+    <item android:id="@+id/action_CaNhan"
+        android:title="@string/info"
+        android:icon="@drawable/ic_info" />
+
+
+</menu>

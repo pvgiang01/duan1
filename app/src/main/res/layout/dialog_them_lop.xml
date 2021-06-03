@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/background"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/themlop"
+        style="@style/Label"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/edtThemMaLop"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:hint="Mã lớp"
+        android:layout_marginVertical="8dp"/>
+
+    <EditText
+        android:id="@+id/edtThemTenLop"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:hint="Tên lớp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnThemLop"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="@string/themlop"
+            android:layout_marginEnd="8dp"
+            style="@style/button" />
+        <Button
+            android:id="@+id/btnHuyThemLop"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="@string/huy"
+            style="@style/button"/>
+    </LinearLayout>
+</LinearLayout>

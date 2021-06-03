@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/background"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/suasv"
+        style="@style/Label"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/edtSuaMaSV"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:hint="Mã sinh viên" />
+
+    <EditText
+        android:id="@+id/edtSuaUsernameSV"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:hint="@string/username"/>
+
+    <EditText
+        android:id="@+id/edtSuaPasswordSV"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:inputType="textPassword"
+        android:hint="@string/password"/>
+
+    <EditText
+        android:id="@+id/edtSuaTenSV"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:hint="Tên sinh viên"/>
+
+    <EditText
+        android:id="@+id/edtSuaCNganhHocSV"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:hint="Ngành học"/>
+    <EditText
+        android:id="@+id/edtSuaNgaySinhSV"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:hint="@string/ngay_sinh"/>
+    <EditText
+        android:id="@+id/edtSuaGioiTinhSV"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:hint="@string/gender"/>
+    <EditText
+        android:id="@+id/edtSuaSDTSV"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:inputType="number"
+        android:hint="@string/phone_number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSuaSV"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Cập nhật"
+            android:layout_marginEnd="8dp"
+            style="@style/button" />
+        <Button
+            android:id="@+id/btnHuySuaSV"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="@string/huy"
+            style="@style/button"/>
+    </LinearLayout>
+</LinearLayout>

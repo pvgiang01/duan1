@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/background"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Label"
+        android:layout_marginBottom="16dp"
+        android:text="Đổi mật khẩu" />
+
+    <EditText
+        android:id="@+id/edtMatKhauCu"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:hint="Mật khẩu cũ"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/edtMatKhauMoi"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:hint="Mật khẩu mới"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/edtMatKhauMoi2"
+        android:layout_width="match_parent"
+        style="@style/edittext"
+        android:hint="Nhập lại mật khẩu mới"
+        android:inputType="textPassword"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnDoiPass"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="@string/yes"
+            android:layout_marginEnd="8dp"
+            style="@style/button" />
+        <Button
+            android:id="@+id/btnHuyDoiPass"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="@string/huy"
+            style="@style/button"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AP Lite</string>
+    <string name="gioithieu">Ứng dụng Quản lí hệ thống học tập đơn giản</string>
+    <string name="quantri">Quản trị</string>
+    <string name="listlop">Danh sách lớp</string>
+    <string name="listgiangvien">Danh sách Giảng viên</string>
+    <string name="listsv">Danh sách sinh viên</string>
+    <string name="gv">Giảng viên</string>
+    <string name="lh">Lớp học</string>
+    <string name="sv">Sinh viên</string>
+    <string name="themlop">Thêm Lớp</string>
+    <string name="themgv">Thêm Giảng viên</string>
+    <string name="themsv">Thêm Sinh viên</string>
+    <string name="suasv">Cập nhật Sinh viên</string>
+    <string name="sualop">Cập nhật lớp</string>
+    <string name="suagv">Cập nhật Giảng viên</string>
+    <string name="xoagv">Xóa Giảng viên</string>
+    <string name="xoalop">Xóa Lớp</string>
+    <string name="xoasv">Xóa Sinh viên</string>
+    <string name="huy">Hủy</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="ngay_sinh">Ngày sinh</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="gender">Giới Tính</string>
+    <string name="yes">Xác nhận</string>
+    <string name="lop">Lớp</string>
+    <string name="info">Cá nhân</string>
+    <string name="absent">Danh sách vắng học</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/ivAvatarSV"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/tvTenSV"
+        style="@style/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/ivAvatarSV"
+        android:text="@string/sv" />
+
+    <TextView
+        android:id="@+id/gachngang"
+        style="@style/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvTenSV"
+        android:text=" - " />
+
+    <TextView
+        android:id="@+id/tvMaSV"
+        style="@style/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/gachngang"
+        android:text="Mã SV"/>
+
+    <TextView
+        android:id="@+id/tvNgaySinhSV"
+        style="@style/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTenSV"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/ivAvatarSV"
+        android:text="@string/ngay_sinh" />
+
+    <TextView
+        android:id="@+id/tvChuyenNganhSV"
+        style="@style/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNgaySinhSV"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/ivAvatarSV"
+        android:text="Ngành học" />
+
+    <TextView
+        android:id="@+id/tvSDTSV"
+        style="@style/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvChuyenNganhSV"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/ivAvatarSV"
+        android:text="@string/phone_number" />
+</RelativeLayout>

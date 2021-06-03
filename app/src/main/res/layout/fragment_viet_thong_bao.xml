@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/background"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viết thông báo"
+        style="@style/Label"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edtTieuDeThongBao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:hint="Tiêu đề"
+        style="@style/edittext"/>
+    <EditText
+        android:id="@+id/edtNoiDungThongBao"
+        android:layout_width="match_parent"
+        android:inputType="textMultiLine"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:gravity="start"
+        android:minHeight="100dp"
+        android:maxHeight="500dp"
+        android:hint="Nội dung"
+        style="@style/edittext"/>
+    <Button
+        android:layout_width="match_parent"
+        style="@style/button"
+        android:text="Đăng thông báo" />
+</LinearLayout>
